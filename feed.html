@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Feedback Form</title>
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Feedback Form</h2>
+
+        <form id="feedbackForm">
+
+            <label>Name:</label>
+            <input type="text" id="name" required>
+
+            <label>Email:</label>
+            <input type="email" id="email" required>
+
+            <label>Feedback:</label>
+            <textarea id="feedback" required></textarea>
+
+            <label>Rating:</label>
+            <select id="rating" required>
+                <option value="">Select Rating</option>
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 </option>
+            </select>
+
+            <button type="submit">Submit Feedback</button>
+
+        </form>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="feed.js"></script>
+</body>
+</html>

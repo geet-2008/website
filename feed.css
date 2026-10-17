@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    max-width: 350px;
+    padding: 20px;
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: lightpink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
